@@ -1,0 +1,53 @@
+/* All common CSS start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Lato", sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All common CSS end */
+
+/* Header Part start  */
+.navbar{
+    background: #1E1E1E;
+} 
+.nav-link {
+    color: #959595;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.6s;
+    padding: 0 15px !important;
+}
+.nav-link:hover {
+    color: #FD6F00;
+}
+.menuHover{
+    background: #959595;
+    color: #1E1E1E;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.6s;
+}
+.menuHover:hover{
+    background: #FD6F00;
+    color: #fff;
+}
+/* Header Part end */
