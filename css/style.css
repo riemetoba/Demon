@@ -117,47 +117,62 @@ p {
 .row{
   align-items: center;
 }
-.ccc{
-  background: #ffffff09; 
+
+.bannerCounter{
+  background: rgba(255, 255, 255, 4%);
+  padding: 24px;
   border-radius: 7px;
-  width: 85%;
 }
-.counterBox{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  margin: 20px 0;
-  border-right: 1px solid #BABABA;
+.counterItem{
+  border-right: 2px solid #BABABA;
+  padding: 10px;
+  
 }
-.counterBox h4{
+.counterItem h4{
   font-size: 24px;
   font-weight: 800;
   color: #fd6f00;
 }
-.counterBox h5{
+.counterItem h5{
   font-size: 20px;
   font-weight: 700;
   color: #DFDFDF;
-  padding-top: 20px;
+  padding-top: 10px;
   letter-spacing: 3%;
 }
 .naiBorder{
   border: none;
 }
-.bannerImg{
+.bannerModel{
   filter: grayscale(100%);
   transition: 0.6s;
+  margin-left: 35px;
 }
-.bannerImg:hover{
+.bannerModel:hover{
  filter: grayscale(0%);
  scale: 1.05;
 }
 
 /* Banner Part End  */
 
-/* Banner Part Start  */
-
-/* Banner Part End  */
+/* Service Part Start  */
+#servicePart{
+  padding: 150px 0;
+  background: #121212;
+}
+.commonTitle h2{
+ font-size: 40px;
+ font-weight: 700;
+ letter-spacing: 3%;
+ color: #fefefe; 
+}
+.commonTitle p{
+ font-size: 20px;
+ font-weight: 500;
+ letter-spacing: 3%;
+ color: #707070;
+}
+/* Service Part End  */
 
 /* Banner Part Start  */
 
