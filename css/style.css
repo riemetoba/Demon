@@ -137,7 +137,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   color: #DFDFDF;
-  padding-top: 10px;
+  padding-top: 20px;
   letter-spacing: 3%;
 }
 .naiBorder{
@@ -157,7 +157,7 @@ p {
 
 /* Service Part Start  */
 #servicePart{
-  padding: 150px 0;
+  padding-bottom: 150px;
   background: #121212;
 }
 .commonTitle h2{
@@ -165,12 +165,44 @@ p {
  font-weight: 700;
  letter-spacing: 3%;
  color: #fefefe; 
+ padding-bottom: 30px;
 }
 .commonTitle p{
  font-size: 20px;
  font-weight: 500;
  letter-spacing: 3%;
  color: #707070;
+ padding-bottom: 80px;
+}
+.serviceItem{
+  padding: 30px;
+  background:  rgba(255, 255, 255, 4%);
+  border-radius: 20px;
+  margin-bottom: 40px;
+  transition: 0.6s;
+}
+.serviceItem i{
+ font-size: 60px;
+ color: #FD6F00;
+}
+.serviceItem h4{
+ font-size: 24px;
+ font-weight: 700;
+ letter-spacing: 3%;
+ color: #FD6F00;
+ padding: 30px 0;
+}
+
+.serviceItem p{
+font-size: 20px;
+ font-weight: 500;
+ letter-spacing: 3%;
+ color: #575757;
+ line-height: 160%;
+ padding: 0 25px;
+}
+.serviceItem:hover{ 
+  box-shadow: 0 0 10px #FD6F00;
 }
 /* Service Part End  */
 
