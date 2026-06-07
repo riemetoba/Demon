@@ -15,11 +15,12 @@
 </head>
 <body>
 
-    <!-- HEADER PART START  -->
-     <nav class="navbar navbar-expand-lg">
+    
+   <!-- HEADER PART START  -->
+<nav class="navbar navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand" href="#">
-        <img src="images/LOGO (1).png" alt="LOGO (1).png">
+        <img src="images/LOGO (1).png" alt="LOGO (1).png" style="max-width: 130px;">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,23 +31,30 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="#">Services</a>
+          <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="#">Portfolio</a>
+          <a class="nav-link" href="#">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact me</a>
         </li>
+        <!-- Mobile only: Hire Me inside menu -->
+        <li class="nav-item d-lg-none mt-2 mb-1">
+          <button class="menuBtn w-60" type="submit">Hire Me</button>
+        </li>
+      </ul>
+      <!-- Desktop only: Hire Me beside nav -->
+      <div class="d-none d-lg-block">
+        <button class="menuBtn" type="submit">Hire Me</button>
+      </div>
     </div>
-    <div class="">
-            <button class="menuBtn" type="submit">Hire Me</button>
-        </div>
   </div>
 </nav>
+<!-- HEADER PART End  -->
 
      <!-- Banner Part Strt  -->
       <section id="bannerPart">
