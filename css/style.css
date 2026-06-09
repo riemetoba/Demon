@@ -249,8 +249,8 @@ p {
 }
 .roundShapeFlex {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
   margin-top: 60px;
 }
 .roundShape {
