@@ -59,6 +59,23 @@ p {
   color: #959595;
   border: 1px solid #959595;
 }
+ @media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -260px;
+    width: 260px;
+    height: 100vh;
+    background: rgba(15, 15, 15, 0.97);
+    padding: 80px 30px 30px;
+    transition: right 0.3s ease;
+    z-index: 9999;
+  }
+
+  .navbar-collapse.show {
+    right: 0 !important;
+  }
+}
 /* Header Part end */
 
 /* Banner Part Start  */
